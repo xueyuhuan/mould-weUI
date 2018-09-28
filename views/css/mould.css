@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    background: #fbfbfb;
+}
+.mould-fix{
+    position: fixed!important;
+}
+.mould-absolute{
+    position: absolute!important;
+}
+/*15padding*/
+.mould-pd15{
+    padding: 15px;
+}
+/*40宽度*/
+.mould-width40{
+    display: inline-block;
+    width: 40px;
+}
+.mould-width20{
+    display: inline-block;
+    width: 20px;
+}
+/*头部栏*/
+.mould-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+.mould-header i{
+    color: #3cc51f;
+}
+.mould-header p{
+    color: #333;
+    margin: 0;
+}
+/*列表*/
+/*列表图标*/
+.mould-list-icon{
+    margin-right: 5px;
+    color: #3cc51f;
+}
+/*表格*/
+/*表格备注*/
+.mould-table-remark{
+    font-size: 14px;
+    color: #999;
+}
+.mould-table-em{
+    font-style: normal;
+    font-weight: bold;
+    color: #333;
+}
+.mould-table-em-purple{
+    color: #9853b2;
+}
